@@ -26,8 +26,6 @@ INTO  retiring_titles
 FROM unique_titles
 GROUP BY title
 
-DROP TABLE mentorship_eligibilty
-
 -- D2
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
     e.first_name,
