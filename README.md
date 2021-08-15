@@ -14,6 +14,8 @@ For this analysis, the HR analyst in charge of this project provided six `.csv` 
 
 ## Analysis Results
 
+The `SQL` query for the following can be found under the `queries` folder as `Employee_Database_challenge.sql`
+
 As requested by the client, the analysis for this particular project was condensed into a few major points to make it easier for the board to get a good overview of the amount of employees retiring and the amount of positions that should be filled. Based on the files provided for analysis, 4 other `.csv` files were created, `retirement_titles.csv`, `unique_titles.csv`, `retiring_titles.csv`, and `mentorship_eligibilty.csv`.
 
 - The `retirement_titles.csv` contains all those eligible for retirement and all the positions they have held while working at Pewlett Hackard. From the file, it shows that those retiring have done so much for the company during their tenure, holding almost 130,000 positions.
@@ -39,13 +41,22 @@ As requested by the client, the analysis for this particular project was condens
 
 ## Summary
 
-Two questions came up while performing the analysis.
+Two questions came up while performing the analysis. The `SQL` query for the following can be found under the `queries` folder as `Employee_Database_Additional.sql`
 
 1. Does the client still need to hire more staff if there are current employees that can be mentored by the retiring staff?
 - The main answer is YES because with over 90,000 positions becoming empty, an only 1,549 mentor eligible staff, there is still about over 88,000 positions that need to be filled. 
 - If the client would like to minimize the amount of hiring to be done, another option would be to broaden the criteria for mentorship eligibility within the company.
 - The table below shows how it may be useful to broaden the criteria for mentorship eligibility amongst current employees
 
+**_FIGURE 4 Last 10 rows of Broadened Mentorship Eligibility Table_**
+
+<img width="845" alt="mentorship_eligibilty_additional" src="https://user-images.githubusercontent.com/86085601/129484355-9988260c-af31-4e6c-bea5-b5b3e2a5fb91.png">
+
 2. Are there any other tables that would be useful in assisting the decision making of the client?
  - To further assist the client, a table showing the amount of employees retiring per department of  was made to allow the board know which departments would see the biggest drop.
 
+ **_FIGURE 5 Retiring Departments Table_**
+
+<img width="308" alt="retiring_dept" src="https://user-images.githubusercontent.com/86085601/129484359-f1577dac-44bd-4ff4-b343-8dffbe559e86.png">
+
+- The firgure shows that Development and Production will have the most staff retiring very soon so should be a point of focus for rehiring.
